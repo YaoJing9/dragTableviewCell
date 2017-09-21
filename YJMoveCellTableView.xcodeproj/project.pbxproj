@@ -15,6 +15,7 @@
 		5B23F7D01F6FA77300273BCA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B23F7CE1F6FA77300273BCA /* LaunchScreen.storyboard */; };
 		5B23F7DB1F6FA77300273BCA /* YJMoveCellTableViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B23F7DA1F6FA77300273BCA /* YJMoveCellTableViewTests.m */; };
 		5B23F7E61F6FA77300273BCA /* YJMoveCellTableViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B23F7E51F6FA77300273BCA /* YJMoveCellTableViewUITests.m */; };
+		5B23F7F51F6FA7C000273BCA /* YJMoveCellTableview.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B23F7F41F6FA7C000273BCA /* YJMoveCellTableview.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		5B23F7E11F6FA77300273BCA /* YJMoveCellTableViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YJMoveCellTableViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5B23F7E51F6FA77300273BCA /* YJMoveCellTableViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YJMoveCellTableViewUITests.m; sourceTree = "<group>"; };
 		5B23F7E71F6FA77300273BCA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5B23F7F31F6FA7C000273BCA /* YJMoveCellTableview.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YJMoveCellTableview.h; sourceTree = "<group>"; };
+		5B23F7F41F6FA7C000273BCA /* YJMoveCellTableview.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YJMoveCellTableview.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,8 @@
 				5B23F7C41F6FA77300273BCA /* AppDelegate.m */,
 				5B23F7C61F6FA77300273BCA /* ViewController.h */,
 				5B23F7C71F6FA77300273BCA /* ViewController.m */,
+				5B23F7F31F6FA7C000273BCA /* YJMoveCellTableview.h */,
+				5B23F7F41F6FA7C000273BCA /* YJMoveCellTableview.m */,
 				5B23F7C91F6FA77300273BCA /* Main.storyboard */,
 				5B23F7CC1F6FA77300273BCA /* Assets.xcassets */,
 				5B23F7CE1F6FA77300273BCA /* LaunchScreen.storyboard */,
@@ -274,6 +279,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5B23F7C81F6FA77300273BCA /* ViewController.m in Sources */,
+				5B23F7F51F6FA7C000273BCA /* YJMoveCellTableview.m in Sources */,
 				5B23F7C51F6FA77300273BCA /* AppDelegate.m in Sources */,
 				5B23F7C21F6FA77300273BCA /* main.m in Sources */,
 			);
